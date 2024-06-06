@@ -1,0 +1,164 @@
+.menu {
+  padding: 8rem 8%;
+}
+
+.menu .box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.menu-box {
+  padding: 1.2rem;
+  gap: 3rem;
+  display: grid;
+  grid-template-columns: 40.5rem auto 10rem;
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.menu .box-container .menu-box .image {
+  height: 100%;
+  width: 100%;
+  /* padding: 1.5rem; */
+  overflow: hidden;
+  position: relative;
+}
+
+.menu .box-container .menu-box .image img {
+  height: 25rem;
+  width: 40rem;
+  border-radius: 0.5rem;
+}
+
+.menu .box-container .menu-box .image .fa-heart {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  background: #fff;
+  border-radius: 50%;
+  color: var(--black);
+}
+
+.menu .box-container .menu-box .image .fa-heart:hover {
+  background-color: var(--green);
+  color: #fff;
+}
+
+.menu .box-container .menu-box .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+
+.stars i {
+  font-size: 1.7rem;
+  color: var(--green);
+}
+
+.stars h3 {
+  color: var(--black);
+  font-size: 2.5rem;
+}
+
+.menu .box-container .menu-box .content p {
+  color: var(--light-color);
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+  line-height: 1.5;
+}
+
+span.price {
+  color: var(--green);
+  margin-left: 1rem;
+  font-size: 2.5rem;
+  padding-top: 2rem;
+}
+
+.topup-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background: var(--black);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
+}
+
+.topup-btn:hover {
+  color: rgb(255, 255, 255);
+  background: var(--green);
+}
+
+.item-count {
+  font-size: 1.7rem;
+  padding: 0.8rem 1rem;
+}
+
+.chk-out-container {
+  float: right;
+  padding: 1rem 0;
+}
+
+.cars h3 {
+  font-size: 5px;
+  padding: 5rem;
+
+}
+
+form {
+  width: 300px;
+  /* Set the desired width for the form */
+  margin: 20px auto;
+  /* Center the form horizontally */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: large;
+  text-align: center;
+}
+
+select {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  /* Green color for the submit button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+  /* Darker green color on hover */
+}
+
+.chinese h4 {
+  font-size: large;
+}
+
+.img {
+  display: flex;
+  padding: 2rem;
+  flex-direction: wrap;
+}

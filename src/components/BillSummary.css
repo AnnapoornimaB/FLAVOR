@@ -1,0 +1,41 @@
+.subtotal-container,
+.delivery-container,
+.final-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-sub-container {
+  padding: 1.2rem;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+span {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+hr {
+  background-color: black;
+  height: 1px;
+}
+
+.delivNote-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery-call {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}

@@ -1,0 +1,40 @@
+.Register{
+    text-align: center;
+}
+input{
+    display: block;
+    margin-top: 5%;
+    width: 95%;
+    border-bottom-style: ridge;
+    padding: 2%;
+    border-color:moccasin !important;
+    margin-bottom: 5%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Login,.Register{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+.btn{
+    width: 100%;
+    margin-top: 5%;
+    padding: 5px;
+    background-color: #0000FF;
+    border-radius: 5px !important;
+}
+
+label{
+    color: black;
+    font-size: large;
+}
+
+
+strong{
+    font-size: larger;
+}
+
+
+

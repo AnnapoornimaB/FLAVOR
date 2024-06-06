@@ -1,0 +1,59 @@
+.service-container {
+    margin-top: 7rem;
+}
+
+.service-head {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--green);
+}
+
+.box-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #eee;
+}
+
+.service-definition {
+    text-align: center;
+    margin-left: 2rem;
+}
+
+.script-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(108px, 1fr));
+    padding: 3rem 8rem;
+    row-gap: 3rem;
+    column-gap: 2rem;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.service img {
+    width: auto;
+}
+
+.service h3 {
+    font-size: 20px;
+}
+
+.service-qn {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.service-desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* number of lines to show */
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

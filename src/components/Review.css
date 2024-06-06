@@ -1,0 +1,54 @@
+
+.review .slide {
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    position: relative;
+  }
+  
+  .review .slide .fa-quote-right {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 6rem;
+    color: #ccc;
+  }
+  
+  .review .slide .user {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+  }
+  
+  .review .slide .user img {
+    /* height: 20%; */
+    width: 15%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review-img {
+    height: 10%;
+    width: 10%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .review .slide .user h3 {
+    color: var(--black);
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .review .slide .user i {
+    font-size: 1.3rem;
+    color: var(--green);
+  }
+  
+  .review .slide p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: var(--light-color);
+  }

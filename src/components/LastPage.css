@@ -1,0 +1,123 @@
+.menu {
+  padding: 8rem 8%;
+}
+
+.menu .box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.chkoutFd-box {
+  padding: 1.2rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+.Fd-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu .box-container .chkoutFd-box .image {
+  height: 100%;
+  width: 100%;
+  /* padding: 1.5rem; */
+  overflow: hidden;
+  position: relative;
+}
+
+.menu .box-container .chkoutFd-box .image img {
+  height: 25rem;
+  width: 40rem;
+  border-radius: 0.5rem;
+}
+
+.menu .box-container .chkoutFd-box .image .fa-heart {
+  position: absolute;
+  top: 2.5rem;
+  right: 2.5rem;
+  height: 5rem;
+  width: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  background: #fff;
+  border-radius: 50%;
+  color: var(--black);
+}
+
+.menu .box-container .chkoutFd-box .image .fa-heart:hover {
+  background-color: var(--green);
+  color: #fff;
+}
+
+.menu .box-container .chkoutFd-box .content {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  /* padding: 2rem 0; */
+}
+
+.chkd-icon {
+  padding-top: 0.2rem;
+}
+
+.menu .box-container .chkoutFd-box .content p {
+  color: var(--light-color);
+  font-size: 1.6rem;
+  padding: 0.5rem 0;
+  line-height: 1.5;
+}
+
+span.fi-price {
+  color: var(--green);
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.topup-btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  background: var(--black);
+  border-radius: 0.5rem;
+  padding: 0.8rem 1rem;
+}
+
+.topup-btn:hover {
+  color: rgb(255, 255, 255);
+  background: var(--green);
+}
+
+.item-count {
+  font-size: 1.7rem;
+  padding: 0.8rem 1rem;
+}
+
+.chk-out-container {
+  float: right;
+  padding: 1rem 0;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .resto{                                              
+  text-align: center;
+  background-color: rgb(71, 39, 211);
+  color:white;
+  margin-left: 650px;
+  border: 1px 1px solid;
+} */
+
