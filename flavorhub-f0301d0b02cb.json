@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "flavorhub",
+  "private_key_id": "f0301d0b02cbdc7c288e734265ada0b641f3e45d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPJGVVmB3cKY8b\nDFiHsi4jyKGVQA8bFCPvU6HNh0i2rlmZofvD5LvuZT614v9fz0BRQbszNt8/AiZM\nsaRjzzxCgS6WsRszaIExbAciwsqEbd+waV54JLQeGjuRg/kU4P9E9c0lg7r+6dQO\ndPGzf+GJVTn4OpKMsDogqLxbVNK/3f8gkYu2PM1Br0X0WyEL551PQWULQ4oDuXim\noxwObKxMcRhb2sCYtsXwXZWu+PJCScFveQaz0+s02Zwv+qs/9tzPxt/LEPt4YyIC\nufy7hjjDytFG2eTFgYNPV2SoKdf9F4WJq4pSliNyAP/kAm0N/Lmhz7tMEs8jcqVM\nSsoUSZEhAgMBAAECggEAH8zcG7mzLSyvfL0L+E++l/LB+lpFF2ijovxpX4FbLznG\npU3XYLmvBPMZH1jz0J8je3YGXwntAvd5rsDU1m0nDfoBZNQCs4U3KZcGj2vCeyCC\nZ0r93Emc4e7at0UV9QJyXgFdrFqJV39z9SuMkacvwOLLIqnHUX7v0DoR/0l0jfd9\nm8Ivz8J2HHLDNDD65IrblwGG17V/JJk7K15n3WHW4UHKr5jhgkSwXonHfy9o0zMP\nvNQBo4XLsiRYdXL81+4p3iQkakcf4PZ8dYsf0cxJbazxqVHt+GhQ0Y0eEkbpAnPD\ne23ERkdu+LGsG0zWvwsKxc1cUL756q1E08lutf+68wKBgQDoij1TF4bk8QJVP+0u\nf9dzLLBFybA7ueKV9E4ZpEyCNlEpbzevGntr78Aup8xuHugsf6mm37qmysh8QFRb\nWrudA5XWZTnesc8zXxLrcVs3Z7t/EzKWQsOaD9GCGpNqkg3voMOttmedKYdCpZXZ\nflcYSM4KBii0Yfn11JXAkIXm0wKBgQDkCjZK5hvnjdnsCXSkNA6z0WV55Dc0iUvu\naC5YUwnFW7PFUBwrB/yhx4fnwq0Bdi8sgeWb+4SXGxlol++RRLG8bMMfxQoT5csF\nbrNlAxuPHp6DbyPhD8ol+o7DDj5Gz06GRx6vWP6ts6BoMl5++skvWjdQQEM8eV/U\nldS4Pi8XuwKBgFHwbD18O88uUYkilnvdFlkCNTbSI+RX0szOIjsM1tzHMQAtrWxp\nI3ZcK9cEz5c6EsujTG99xHKDX/PQYykxpoxkOAcs8iBTfVR3ut31upOiXMIhTKD/\n85a03jk/DhTuVDTM7Eao0Ifjm0LTwCK8TwpClT+Y/fzZzU9fUklhY517AoGBAI/i\nHaWekUbGCxVSVgVxT0GIQrXpGCgO5RkVJQDXzBd5p/E8fbls/ar6IbdK7yw37MXx\nY/XKejt5fsuu6hrHtDmGiotWIOizGilgUtLOZiokkLGvg3zzIIJcGI3cQ9Eb5pj0\n8NiEl5Tz/Kch+Nu30w8Mpk/9bC8RCjUxIJnrqn0XAoGBAIshTKmt/b+B43OzMSc9\nVBxsdmZbi+q6TLEc766m15rc3+6YXFYPiSyNMVXEOaOis+S2iJkCAyGmKFicEhN3\ndP5H6hjzT0bQk/BuoszTTU8k1WQvEDlG5/1ePJ0Kz/OAdcOagADXL8P6ymesGTz0\nnV3UENhCRs46hlMTe1d0kWGl\n-----END PRIVATE KEY-----\n",
+  "client_email": "flavorhub@flavorhub.iam.gserviceaccount.com",
+  "client_id": "116296975055692879595",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/flavorhub%40flavorhub.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
