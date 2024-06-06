@@ -1,6 +1,6 @@
 import React, { Component, useState } from 'react';
 import { useSelector } from 'react-redux';
-import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
+
 import Header from './Header';
 import LastPageOrder from './LastPageOrders';
 import './Order.css';
@@ -121,14 +121,8 @@ function Order(props) {
       </section>
       <div className='App'>
         <h1>FlavorHub</h1>
-        <Map
-          google={props.google}
-          zoom={15}
-          initialCenter={collegePosition}
-          style={{ width: '100%', height: '400px' }}
-        >
-          <Marker position={collegePosition} />
-        </Map>
+        
+        
       </div>
       <div className="gpay">
         <img src="gpsy.jpg" width="400" height="400"></img>
