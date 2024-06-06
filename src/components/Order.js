@@ -45,8 +45,6 @@ function Order(props) {
     setData({ ...data, [e.target.id]: e.target.value });
   };
 
-  const collegePosition = { lat: 9.1589, lng: 77.8664 }; // Coordinates for Kovilpatti National Engineering College
-
   return (
     <>
       <Header />
@@ -130,7 +128,4 @@ function Order(props) {
     </>
   );
 }
-
-export default GoogleApiWrapper({
-  apiKey: 'AIzaSyDu7zX1RK1sAfbeLS9aNQ0timYvaImd8cI'
-})(Order);
+export default Order;
